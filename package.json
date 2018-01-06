@@ -1,0 +1,20 @@
+{
+  "name": "super-veggie-bros",
+  "version": "1.0.0",
+  "main": "src/game.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "bundle": "webpack"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.9.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
