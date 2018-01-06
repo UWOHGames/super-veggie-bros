@@ -1,6 +1,5 @@
-/**
- * Register globals
- */
+require('babel-polyfill')
+
 const { Phaser } = require('./globals')
 const { Game } = Phaser
 
