@@ -12,16 +12,8 @@ module.exports = {
     // NOTE: the "to" endpoint is relative
     // to the output path
     new CopyPlugin([
-      {
-        from: './assets',
-        to: './assets'
-      }
-    ]),
-    new CopyPlugin([
-      {
-        from: './src/index.html',
-        to: './index.html'
-      }
+      { from: './assets', to: './assets' },
+      { from: './src/index.html', to: './index.html' }
     ])
   ],
 
