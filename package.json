@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "lint": "standard | snazzy"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
@@ -16,6 +17,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "copy-webpack-plugin": "^4.3.0",
+    "git-hooks": "^1.1.9",
     "snazzy": "^7.0.0",
     "standard": "^10.0.3",
     "webpack": "^3.10.0",
